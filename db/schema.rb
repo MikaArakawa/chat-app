@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 2021_05_06_064217) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
+ActiveRecord::Schema.define(version: 2021_05_06_040006) do
 
   create_table "users", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name", null: false
